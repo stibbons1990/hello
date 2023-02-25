@@ -1,2 +1,3 @@
 FROM alpine
-CMD echo "The Turtle Moves!"
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+ENTRYPOINT ["entrypoint.sh"]
