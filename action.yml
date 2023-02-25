@@ -1,8 +1,8 @@
 name: 'The Turtle Moves'
 description: 'The Turtle Moves!'
 runs:
-  using: docker
-  image: Dockerimage
+  using: 'docker'
+  image: 'Dockerfile'
 branding:
-  icon: sunrise
-  color: green
+  icon: 'sunrise'
+  color: 'green'
